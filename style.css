@@ -1,0 +1,40 @@
+body {
+  background-color: #000; /* Black background */
+  color: #00ff00; /* Green text for retro effect */
+  font-family: "Courier New", Courier, monospace; /* Use a monospaced font for retro feel */
+  text-align: center;
+  padding: 20px;
+}
+body h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+body .hidden-letter {
+  display: inline-block;
+  width: 30px;
+  margin: 5px;
+  font-size: 24px;
+  border-bottom: 1px solid #00ff00; /* Green underline */
+}
+body .guessed-letters {
+  margin-top: 20px;
+}
+body #remaining-guesses {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+body .reset-button {
+  background-color: #000;
+  color: #00ff00;
+  border: 2px solid #00ff00; /* Green border */
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+body .reset-button:hover {
+  background-color: #00ff00; /* Green background on hover */
+  color: #000;
+}/*# sourceMappingURL=style.css.map */
