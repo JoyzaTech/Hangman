@@ -1,6 +1,6 @@
 @font-face {
   font-family: "joyza";
-  src: url(../fonts/jdot.ttf);
+  src: url(./fonts/jdot.ttf);
 }
 /* Existing CSS code remains the same */
 body {
