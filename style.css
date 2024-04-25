@@ -1,6 +1,6 @@
 @font-face {
   font-family: "joyza";
-  src: url(./fonts/jdot.ttf);
+  src: url(../fonts/jdot.ttf);
 }
 /* Existing CSS code remains the same */
 body {
@@ -33,19 +33,4 @@ body #remaining-guesses {
 body .hangman {
   white-space: pre;
   font-family: monospace;
-}
-body .reset-button {
-  background-color: #000;
-  color: #00ff00;
-  border: 2px solid #00ff00; /* Green border */
-  padding: 10px 20px;
-  font-size: 1em;
-  cursor: pointer;
-  transition: background-color 0.3s;
-  margin-top: 20px;
-  font-family: "joyza";
-}
-body .reset-button:hover {
-  background-color: #00ff00; /* Green background on hover */
-  color: #000;
 }/*# sourceMappingURL=style.css.map */
